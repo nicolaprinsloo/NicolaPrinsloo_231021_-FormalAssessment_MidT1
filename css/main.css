@@ -1,33 +1,26 @@
 nav{
     width: 100%;
-    height: 80px;
+    height: 100px;
     background-color: grey;
     padding-left: 10%;
     padding-right: 10%;
+    padding-top: 20%;   
 }
 
-nav, logo{
-    color: white;
-    padding-top: 20px;
-    padding-right: 150px;
-}
-
-.nav-con{
-    width: 550px;
-    height: 50px;
-    float: right;
-    margin-top: 5px;
-    padding-left: 70px;
-    margin-right: 500px;
-}
-
-.section-title{
+.heading{
     text-align: center;
-    margin-top: 100px; 
+    padding-top: 10px;
 }
 
-ul{
-    list-style: none;
+nav li{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
 }
 
 li{
@@ -43,13 +36,66 @@ li{
     padding-top: 8px;
 }
 
-li:hover{
-    cursor: pointer;
+nav, logo{
+    color: white;
+    padding-top: 20px;
+    padding-right: 150px;
+}
+
+.nav-con{
+    width: 550px;
+    height: 50px;
+    float: right;
+    /* margin-top: 5px;
+    padding-left: 70px;
+    margin-right: 500px; */
+}
+
+.active{
     background-color: #2b2b2b;
     color: white;
 }
 
-.active{
+.welcome{
+    text-align: center;
+    margin-top: 100px; 
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    padding-bottom: 20px;
+}
+
+.welcome{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.title-two{
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.title-three{
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.title-four{
+    text-align: center;
+    margin-top: 50px; 
+}
+
+
+ul{
+    list-style: none;
+}
+
+li:hover{
+    cursor: pointer;
     background-color: #2b2b2b;
     color: white;
 }
@@ -62,22 +108,15 @@ header{
     padding-left: 150px;
 }
 
-header h3{
-    font-style: italic;
-}
 
 header h1{
     font-style: normal;
     width: 600px;
 }
 
-header p{
+/* header p{
     width: 800px;
-}
-
-nav welcome{
-    margin-right: 600px;
-}
+} */
 
 .col-box{
     width: 80%;
@@ -86,11 +125,32 @@ nav welcome{
     margin: 0 auto;
     margin-top: 50px;
     border-radius: 5px;
-    margin-bottom: 50px; 
+    margin-bottom: 15px; 
+}
+
+.col-box{
+    width: 95%;
+    height: 400px;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+
+
+.card{
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 70px;
+    border: none;
 }
 
 .cards{
     height: 250px;
+    text-align: center;
 }
 
 .text{
@@ -137,6 +197,7 @@ nav welcome{
     background-color: #2b2b2b;
     color: white;
     border: 2px solid #2b2b2b;
+    margin-left: 15px;
 }
 
 .normal:hover{
@@ -144,6 +205,31 @@ nav welcome{
     background-color: white;
     color: #2b2b2b;
     border: 2px solid #2b2b2b;
+}
+
+.normal2{
+    background-color: #2b2b2b;
+    color: white;
+    border: 2px solid #2b2b2b;
+    margin-left: 2px;
+}
+
+.normal2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #2b2b2b;
+    border: 2px solid #2b2b2b;
+}
+
+.fifty{
+    width: 600px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+}
+
+.thirty{
+    width: 400px;
+    padding-left: 60px;
 }
 
 footer{
@@ -155,12 +241,4 @@ footer{
     font-style: italic;
     padding: 40px;
     margin-top: 50px;
-}
-
-.card{
-    text-align: center;
-    padding-top: 25px;
-    padding-left: 15%;
-    padding-right: 15%;
-    border: none;
 }
